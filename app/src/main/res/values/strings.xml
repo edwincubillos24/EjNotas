@@ -9,4 +9,6 @@
     <string name="bCalcular">Calculate</string>
     <string name="title_activity_about">About us..</string>
     <string name="tAbout">Application for calculation grades - Development of Mobile Applications - University of Antioquia</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="bAceptar">Accept</string>
 </resources>

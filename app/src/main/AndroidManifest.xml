@@ -19,7 +19,11 @@
         <activity
             android:name=".AboutActivity"
             android:label="@string/title_activity_about"
-            android:theme="@style/Base.Theme.AppCompat.Dialog">
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
         </activity>
     </application>
 

@@ -1,6 +1,7 @@
 package com.example.ejnotas;
 
 import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -48,11 +49,21 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.aboutUs){
-            Intent i = new Intent(this, AboutActivity.class);
-            startActivity(i);
-            return true;
-        }
+        switch (id) {
+            case R.id.settings:
+                Intent s = new Intent(this, SettingsActivity.class);
+                s.putExtra("pQuiz", 15);
+                s.putExtra("pExp", 10);
+                s.putExtra("pPra", 40);
+                s.putExtra("pPro", 35);
+                startActivity(s);
+                break;
+
+            case R.id.aboutUs:
+                Intent a = new Intent(this, AboutActivity.class);
+                startActivity(a);
+                break;
+            }
         return super.onOptionsItemSelected(item);
     }
 }
