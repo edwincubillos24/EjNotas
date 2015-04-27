@@ -7,4 +7,6 @@
     <string name="tProy">Proyecto</string>
     <string name="tNFinal">Nota Final</string>
     <string name="bCalcular">Calcular</string>
+    <string name="title_activity_about">Acerca de..</string>
+    <string name="tAbout">Aplicación para el cálculo de notas - Desarrollo de Aplicaciones Móviles - Universidad de Antioquia</string>
 </resources>
