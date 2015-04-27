@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="tQuiz">Quices</string>
+    <string name="tExpo">Exposiciones</string>
+    <string name="tPrac">Practicas</string>
+    <string name="tProy">Proyecto</string>
+    <string name="tNFinal">Nota Final</string>
+    <string name="bCalcular">Calcular</string>
+</resources>
