@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tQuiz"
+            style="@style/textViewStyle"
+            android:text="@string/tQuiz"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/eQuiz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tExpo"
+            style="@style/textViewStyle"
+            android:text="@string/tExpo"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/eExpo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tProy"
+            style="@style/textViewStyle"
+            android:text="@string/tProy"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/ePract"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tPract"
+            style="@style/textViewStyle"
+            android:text="@string/tPrac"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/eProy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/bCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bCalcular"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tnotaF"
+            style="@style/textViewStyle"
+            android:text="@string/tNFinal"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/eNotaF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
